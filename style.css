@@ -1,0 +1,224 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80%;
+    padding-left: 8%;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    
+    
+}
+ul {
+    list-style: none;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li a{
+    color: white;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.Hume {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#Beranda{
+    display:flex;
+    flex-direction:column;
+    height:90vh;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    background-color: #000000;
+    font-size: 45pt;   
+}
+h2{
+    color: #FDC92E;
+    letter-spacing: 1px;
+    font-size: 35pt;
+    padding-right: 70%;
+}
+h3 {
+    color: white;
+    font-size: 35pt;
+    margin-bottom: 35px;
+    padding-right: 66%;
+}
+h4 {
+    color: white;
+    font-size: 15pt;
+    font-style: medium;
+    text-align: left;
+    padding-right: 56%;
+    padding-bottom: 3%;
+}
+.but{
+    background-color: #ffffff ;
+    color: black;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 55px;
+    border-radius: 30px;
+    transition: transform .5s;
+    font-size: 15pt; 
+    margin-right: 72%;
+}
+.but:hover {
+    transform: scale(1.2);
+    border: 2px solid black;
+    background-color: gray;
+}
+.about{
+    display:flex;
+    flex-direction:column;
+    height:90vh;
+    align-items:center;
+    justify-content:center;
+    color: black;
+    background-color: #ffffff;
+    font-size: 45pt;
+}
+.about-yu {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.about-yu img {
+    height: 500px;
+    width: 500px;
+    padding-top: 20%;
+   
+}
+.about-txt {
+    width: 550px;
+    margin-bottom: 30px;
+    padding-top: 15%;
+    
+}
+.about-txt h2 {
+    color: black ;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-top: 35%;
+
+}
+.about-txt p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 23px;
+    text-align: justify;
+    float: right;
+    margin-bottom: 5%;
+}
+.butt{
+    background-color: #FDC92E;
+    color: black;
+    border: 2px solid white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-size: 15pt; 
+    margin-right: 72%;
+}
+.butt:hover {
+    transform: scale(1.2);
+    background-color: black;
+    color: #FDC92E;
+}
+.mmenu {
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+    color: #D8FFA0;
+    background-color: #000000;
+    font-size: 45pt;
+    padding: 100px 0;
+    border-bottom: 1px solid #D8FFA0;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; 
+ }
+ .card {
+     height: 550px;
+     width: 230px;
+     padding: 35px 25px;
+     background-color: white;
+     border-radius: 20px;
+     position: relative;
+     font-size: 20pt;
+     overflow: hidden;
+     text-align: center;
+     border: 1px solid white;
+ }
+ .card i {
+     font-size: 50px;
+     display: block;
+     text-align: center;
+     margin: 25px 0;
+     color: white;
+ }
+ .card h5 {
+     color: #000000;
+     font-size: 25px;
+     
+ }
+ .satuu p {
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    
+
+}
+.satuu p a {
+    background-color: #D8FF9F ;
+    color: #000000;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+
+}
+.satuu p a:hover{
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    margin-top: -20%;
+}
+   
